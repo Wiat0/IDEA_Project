@@ -1,0 +1,1402 @@
+2021-05-09 00:06:51.582  INFO 17172 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 17172 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-09 00:06:51.592  INFO 17172 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-09 00:06:54.929  INFO 17172 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 4.058 seconds (JVM running for 5.424)
+2021-05-09 00:07:11.102  INFO 17172 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:07:11.412  INFO 17172 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:07:36.058  INFO 17172 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/8', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[8, {}]}
+2021-05-09 00:07:36.300  INFO 17172 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:07:51.164  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:07:51.178  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:08:06.249  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 2, {}]}
+2021-05-09 00:08:06.257  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:08:20.418  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 00:08:20.432  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:08:25.204  INFO 17172 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, 6, {}]}
+2021-05-09 00:08:25.211  INFO 17172 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:08:26.602  INFO 17172 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/8', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, 8, {}]}
+2021-05-09 00:08:26.608  INFO 17172 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:08:31.969  INFO 17172 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/11', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[11, {}]}
+2021-05-09 00:08:32.075  INFO 17172 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:08:32.804  INFO 17172 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/11', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[11, {}]}
+2021-05-09 00:08:32.818  INFO 17172 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-05-09 00:08:36.137  INFO 17172 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2021-05-09 00:08:36.163  INFO 17172 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : archives
+2021-05-09 00:08:47.283  INFO 17172 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 00:08:47.287  INFO 17172 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : music
+2021-05-09 00:08:56.809  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 00:08:56.816  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:09:00.793  INFO 17172 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 00:09:00.794  INFO 17172 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : music
+2021-05-09 00:09:06.031  INFO 17172 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2021-05-09 00:09:06.039  INFO 17172 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : message
+2021-05-09 00:09:06.287  INFO 17172 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2021-05-09 00:09:06.363  INFO 17172 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 00:09:29.652  INFO 17172 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.post', args=[Message{id=null, nickname='123', email='12465@qq.com', content='hello', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=Message{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=null, parentNickname='null'}, parentNickname='null'}, org.apache.catalina.session.StandardSessionFacade@5ee06e1f, {message=Message{id=null, nickname='123', email='12465@qq.com', content='hello', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=Message{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=null, parentNickname='null'}, parentNickname='null'}, org.springframework.validation.BindingResult.message=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2021-05-09 00:09:29.733  INFO 17172 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 00:09:39.618  INFO 17172 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 00:09:39.699  INFO 17172 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 00:09:52.697  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2021-05-09 00:09:52.753  INFO 17172 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : picture
+2021-05-09 00:10:10.300  INFO 17172 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2021-05-09 00:10:10.304  INFO 17172 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : about
+2021-05-09 00:10:45.782  INFO 17172 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-05-09 00:10:45.788  INFO 17172 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-05-09 00:13:01.257  INFO 8968 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 8968 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-09 00:13:01.260  INFO 8968 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-09 00:13:04.039  INFO 8968 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.381 seconds (JVM running for 4.551)
+2021-05-09 00:13:07.965  INFO 8968 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:13:08.221  INFO 8968 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:13:21.708  INFO 8968 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 00:13:21.725  INFO 8968 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:13:24.471  INFO 8968 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2021-05-09 00:13:24.482  INFO 8968 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : archives
+2021-05-09 00:13:26.079  INFO 8968 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 00:13:26.084  INFO 8968 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : music
+2021-05-09 00:13:27.299  INFO 8968 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2021-05-09 00:13:27.302  INFO 8968 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : message
+2021-05-09 00:13:27.475  INFO 8968 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2021-05-09 00:13:27.496  INFO 8968 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 00:13:28.351  INFO 8968 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 00:13:28.359  INFO 8968 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 00:13:30.310  INFO 8968 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:13:30.322  INFO 8968 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:13:34.951  INFO 8968 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/10', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[10, {}]}
+2021-05-09 00:13:35.117  INFO 8968 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:13:35.954  INFO 8968 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/10', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[10, {}]}
+2021-05-09 00:13:35.959  INFO 8968 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-05-09 00:13:43.153  INFO 8968 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 2, {}]}
+2021-05-09 00:13:43.162  INFO 8968 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:13:53.678  INFO 8968 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2021-05-09 00:13:53.678  INFO 8968 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : message
+2021-05-09 00:13:53.840  INFO 8968 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2021-05-09 00:13:53.855  INFO 8968 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 00:14:02.847  INFO 8968 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 00:14:02.847  INFO 8968 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : music
+2021-05-09 00:14:09.116  INFO 8968 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 00:14:09.119  INFO 8968 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 00:14:15.567  INFO 8968 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2021-05-09 00:14:15.576  INFO 8968 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : picture
+2021-05-09 00:14:21.592  INFO 8968 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2021-05-09 00:14:21.594  INFO 8968 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : about
+2021-05-09 00:14:49.557  INFO 8968 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-05-09 00:14:49.563  INFO 8968 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-05-09 00:15:52.591  INFO 8968 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:15:52.599  INFO 8968 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:16:03.744  INFO 8968 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[12, {}]}
+2021-05-09 00:16:03.811  INFO 8968 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:16:03.948 ERROR 8968 --- [http-nio-8080-exec-3] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/asd，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "asd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 00:16:03.950  WARN 8968 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"]
+2021-05-09 00:16:19.347  WARN 8968 --- [http-nio-8080-exec-5] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-05-09 00:16:22.623  INFO 8968 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:16:22.630  INFO 8968 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:16:25.250  INFO 8968 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[12, {}]}
+2021-05-09 00:16:25.372  INFO 8968 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:16:25.492 ERROR 8968 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/asd，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "asd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 00:16:25.492  WARN 8968 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"]
+2021-05-09 00:16:25.999  INFO 8968 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/12', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[12, {}]}
+2021-05-09 00:16:26.002  INFO 8968 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-05-09 00:20:36.122  INFO 5576 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 5576 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-09 00:20:36.125  INFO 5576 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-09 00:20:39.663  INFO 5576 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 4.231 seconds (JVM running for 5.535)
+2021-05-09 00:20:42.737  INFO 5576 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:20:43.023  INFO 5576 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:20:54.176  INFO 5576 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/11', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[11, {}]}
+2021-05-09 00:20:54.337  INFO 5576 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:20:55.439  INFO 5576 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/11', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[11, {}]}
+2021-05-09 00:20:55.450  INFO 5576 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-05-09 00:21:03.983  INFO 5576 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 2, {}]}
+2021-05-09 00:21:04.003  INFO 5576 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:21:13.514  INFO 5576 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 00:21:13.531  INFO 5576 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:21:16.714  INFO 5576 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2021-05-09 00:21:16.725  INFO 5576 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : archives
+2021-05-09 00:21:23.604  INFO 5576 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 00:21:23.606  INFO 5576 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : music
+2021-05-09 00:21:31.182  INFO 5576 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 00:21:31.200  INFO 5576 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 00:21:40.111  INFO 5576 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2021-05-09 00:21:40.121  INFO 5576 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : picture
+2021-05-09 00:21:45.556  INFO 5576 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2021-05-09 00:21:45.558  INFO 5576 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : about
+2021-05-09 00:22:09.683  INFO 5576 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-05-09 00:22:09.690  INFO 5576 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-05-09 00:23:14.057  INFO 5576 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:23:14.068  INFO 5576 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:23:16.813  INFO 5576 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/13', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[13, {}]}
+2021-05-09 00:23:16.889  INFO 5576 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:23:17.024 ERROR 5576 --- [http-nio-8080-exec-6] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/SAD，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "SAD"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "SAD"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 00:23:17.025  WARN 5576 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "SAD"]
+2021-05-09 00:23:25.891  WARN 5576 --- [http-nio-8080-exec-1] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-05-09 00:23:29.287  INFO 5576 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/13', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[13, {}]}
+2021-05-09 00:23:29.357  INFO 5576 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:23:29.470 ERROR 5576 --- [http-nio-8080-exec-4] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/SAD，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "SAD"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "SAD"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 00:23:29.471  WARN 5576 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "SAD"]
+2021-05-09 00:23:40.901  INFO 5576 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:23:40.911  INFO 5576 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:32:56.167  INFO 16656 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 16656 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-09 00:32:56.170  INFO 16656 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-09 00:32:59.490  INFO 16656 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.984 seconds (JVM running for 5.248)
+2021-05-09 00:33:07.189  INFO 16656 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:33:07.480  INFO 16656 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:43:32.928  INFO 320 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 320 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-09 00:43:32.932  INFO 320 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-09 00:43:36.142  INFO 320 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 3.831 seconds (JVM running for 5.136)
+2021-05-09 00:43:39.825  INFO 320 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:43:40.118  INFO 320 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:43:53.127  INFO 320 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/8', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[8, {}]}
+2021-05-09 00:43:53.290  INFO 320 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 00:44:01.567  INFO 320 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 2, {}]}
+2021-05-09 00:44:01.575  INFO 320 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:44:12.009  INFO 320 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 00:44:12.024  INFO 320 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:44:13.788  INFO 320 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2021-05-09 00:44:13.800  INFO 320 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : archives
+2021-05-09 00:44:14.573  INFO 320 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 00:44:14.577  INFO 320 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : music
+2021-05-09 00:44:15.685  INFO 320 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2021-05-09 00:44:15.689  INFO 320 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : message
+2021-05-09 00:44:15.896  INFO 320 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2021-05-09 00:44:15.909  INFO 320 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 00:44:16.461  INFO 320 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 00:44:16.470  INFO 320 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 00:44:17.556  INFO 320 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2021-05-09 00:44:17.568  INFO 320 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : picture
+2021-05-09 00:44:18.539  INFO 320 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2021-05-09 00:44:18.541  INFO 320 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : about
+2021-05-09 00:44:21.330  INFO 320 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 00:44:21.339  INFO 320 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:44:22.669  INFO 320 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/9', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, 9, {}]}
+2021-05-09 00:44:22.676  INFO 320 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : types
+2021-05-09 00:44:28.522  INFO 320 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2021-05-09 00:44:28.528  INFO 320 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : archives
+2021-05-09 00:44:37.123  INFO 320 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 00:44:37.123  INFO 320 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : music
+2021-05-09 00:44:43.612  INFO 320 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2021-05-09 00:44:43.613  INFO 320 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : message
+2021-05-09 00:44:43.816  INFO 320 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2021-05-09 00:44:43.827  INFO 320 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 00:44:52.171  INFO 320 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 00:44:52.175  INFO 320 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 00:44:57.627  INFO 320 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2021-05-09 00:44:57.631  INFO 320 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : picture
+2021-05-09 00:45:00.665  INFO 320 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2021-05-09 00:45:00.665  INFO 320 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : about
+2021-05-09 00:45:14.432 ERROR 320 --- [http-nio-8080-exec-4] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/admin/login，Exception : {}
+
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+### The error may exist in file [E:\课件资料\毕业设计\资料整合\myblog\target\classes\mapper\UserDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select * from myblog.t_user         where username = ? and password = ?; LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy81.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy96.findByUsernameAndPassword(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy97.findByUsernameAndPassword(Unknown Source)
+	at com.star.service.Impl.UserServiceImpl.checkUser(UserServiceImpl.java:22)
+	at com.star.controller.admin.LoginController.login(LoginController.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.pageQuery(ExecutorUtil.java:177)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:104)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy116.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 69 common frames omitted
+
+2021-05-09 00:45:14.434  WARN 320 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+### The error may exist in file [E:\课件资料\毕业设计\资料整合\myblog\target\classes\mapper\UserDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select * from myblog.t_user         where username = ? and password = ?; LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2]
+2021-05-09 00:45:16.507  INFO 320 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 00:45:16.514  INFO 320 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : index
+2021-05-09 00:45:44.160 ERROR 320 --- [http-nio-8080-exec-6] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/admin/login，Exception : {}
+
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+### The error may exist in file [E:\课件资料\毕业设计\资料整合\myblog\target\classes\mapper\UserDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select * from myblog.t_user         where username = ? and password = ?; LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy81.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy96.findByUsernameAndPassword(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy97.findByUsernameAndPassword(Unknown Source)
+	at com.star.service.Impl.UserServiceImpl.checkUser(UserServiceImpl.java:22)
+	at com.star.controller.admin.LoginController.login(LoginController.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.pageQuery(ExecutorUtil.java:177)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:104)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy116.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 69 common frames omitted
+
+2021-05-09 00:45:44.160  WARN 320 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+### The error may exist in file [E:\课件资料\毕业设计\资料整合\myblog\target\classes\mapper\UserDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select * from myblog.t_user         where username = ? and password = ?; LIMIT ?
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10000' at line 2]
+2021-05-09 01:09:25.131  INFO 16672 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 16672 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-09 01:09:25.168  INFO 16672 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-09 01:09:31.449  INFO 16672 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 7.951 seconds (JVM running for 11.168)
+2021-05-09 01:09:49.591  INFO 16672 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:09:50.098  INFO 16672 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:10:06.633  INFO 16672 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 2, {}]}
+2021-05-09 01:10:06.640  INFO 16672 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:10:16.269  INFO 16672 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 01:10:16.286  INFO 16672 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : types
+2021-05-09 01:10:19.133  INFO 16672 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2021-05-09 01:10:19.144  INFO 16672 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : archives
+2021-05-09 01:10:26.479  INFO 16672 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 01:10:26.482  INFO 16672 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : music
+2021-05-09 01:10:34.730  INFO 16672 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2021-05-09 01:10:34.734  INFO 16672 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : message
+2021-05-09 01:10:35.053  INFO 16672 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2021-05-09 01:10:35.097  INFO 16672 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 01:10:40.361  INFO 16672 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 01:10:40.386  INFO 16672 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 01:10:47.499  INFO 16672 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2021-05-09 01:10:47.533  INFO 16672 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : picture
+2021-05-09 01:10:50.342  INFO 16672 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2021-05-09 01:10:50.345  INFO 16672 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : about
+2021-05-09 01:11:27.827  INFO 16672 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-05-09 01:11:27.862  INFO 16672 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-05-09 01:11:54.639  INFO 16672 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 01:11:54.639  INFO 16672 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : music
+2021-05-09 01:11:56.417  INFO 16672 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:11:56.427  INFO 16672 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:11:59.000  INFO 16672 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[12, {}]}
+2021-05-09 01:11:59.161  INFO 16672 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 01:11:59.397 ERROR 16672 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/asd，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "asd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 01:11:59.399  WARN 16672 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"]
+2021-05-09 01:12:12.671  WARN 16672 --- [http-nio-8080-exec-3] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-05-09 01:12:15.212  INFO 16672 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 01:12:15.213  INFO 16672 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : music
+2021-05-09 01:12:16.447  INFO 16672 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/12', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[12, {}]}
+2021-05-09 01:12:16.517  INFO 16672 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 01:12:16.633 ERROR 16672 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/asd，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "asd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 01:12:16.634  WARN 16672 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"]
+2021-05-09 01:21:15.882  INFO 12452 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 12452 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-09 01:21:15.886  INFO 12452 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-09 01:21:19.404  INFO 12452 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 4.303 seconds (JVM running for 5.634)
+2021-05-09 01:21:37.219  INFO 12452 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:21:37.534  INFO 12452 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:21:51.507  INFO 12452 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 2, {}]}
+2021-05-09 01:21:51.521  INFO 12452 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:21:57.224  INFO 12452 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:21:57.245  INFO 12452 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:22:06.669  INFO 12452 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 01:22:06.687  INFO 12452 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : types
+2021-05-09 01:22:06.845 ERROR 12452 --- [http-nio-8080-exec-8] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/types/asd，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "asd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 01:22:06.850  WARN 12452 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"]
+2021-05-09 01:22:08.678  INFO 12452 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2021-05-09 01:22:08.690  INFO 12452 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : archives
+2021-05-09 01:22:18.839  INFO 12452 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 01:22:18.843  INFO 12452 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : music
+2021-05-09 01:22:22.069  INFO 12452 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2021-05-09 01:22:22.076  INFO 12452 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : message
+2021-05-09 01:22:22.327  INFO 12452 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2021-05-09 01:22:22.360  INFO 12452 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 01:22:33.573  INFO 12452 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 01:22:33.584  INFO 12452 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 01:22:39.081  INFO 12452 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2021-05-09 01:22:39.090  INFO 12452 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : picture
+2021-05-09 01:22:41.662  INFO 12452 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2021-05-09 01:22:41.667  INFO 12452 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : about
+2021-05-09 01:23:07.509  INFO 12452 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-05-09 01:23:07.517  INFO 12452 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-05-09 01:23:52.440  INFO 12452 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 01:23:52.440  INFO 12452 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : music
+2021-05-09 01:23:53.753  INFO 12452 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:23:53.763  INFO 12452 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:23:57.109  INFO 12452 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/13', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[13, {}]}
+2021-05-09 01:23:57.253  INFO 12452 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 01:23:57.414 ERROR 12452 --- [http-nio-8080-exec-3] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/sad，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "sad"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "sad"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 01:23:57.415  WARN 12452 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "sad"]
+2021-05-09 01:23:58.282  INFO 12452 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/13', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[13, {}]}
+2021-05-09 01:23:58.291  INFO 12452 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-05-09 01:24:05.763  WARN 12452 --- [http-nio-8080-exec-4] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-05-09 01:24:08.766  INFO 12452 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/13', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[13, {}]}
+2021-05-09 01:24:08.851  INFO 12452 --- [http-nio-8080-exec-5] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 01:24:09.004 ERROR 12452 --- [http-nio-8080-exec-10] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/sad，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "sad"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "sad"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 01:24:09.010  WARN 12452 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "sad"]
+2021-05-09 01:24:28.576 ERROR 12452 --- [http-nio-8080-exec-7] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/admin/types/9/delete，Exception : {}
+
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+### The error may exist in file [E:\课件资料\毕业设计\资料整合\myblog\target\classes\mapper\TypeDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: delete from myblog.t_type where id = ?
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+; Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`)); nested exception is java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:247)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy81.delete(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:303)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:72)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy94.deleteType(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy95.deleteType(Unknown Source)
+	at com.star.service.Impl.TypeServiceImpl.deleteType(TypeServiceImpl.java:62)
+	at com.star.service.Impl.TypeServiceImpl$$FastClassBySpringCGLIB$$599a4195.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.star.service.Impl.TypeServiceImpl$$EnhancerBySpringCGLIB$$6e94a4b5.deleteType(<generated>)
+	at com.star.controller.admin.TypeController.delete(TypeController.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy116.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 80 common frames omitted
+
+2021-05-09 01:24:28.577  WARN 12452 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+### The error may exist in file [E:\课件资料\毕业设计\资料整合\myblog\target\classes\mapper\TypeDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: delete from myblog.t_type where id = ?
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+; Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`)); nested exception is java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`myblog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))]
+2021-05-09 01:28:22.760  INFO 2064 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 2064 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-09 01:28:22.765  INFO 2064 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-09 01:28:26.896  INFO 2064 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 5.055 seconds (JVM running for 7.28)
+2021-05-09 01:28:53.548  INFO 2064 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:28:53.848  INFO 2064 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:29:15.235  INFO 2064 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 2, {}]}
+2021-05-09 01:29:15.249  INFO 2064 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:29:18.249  INFO 2064 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:29:18.282  INFO 2064 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:29:21.426  INFO 2064 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, -1, {}]}
+2021-05-09 01:29:21.443  INFO 2064 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : types
+2021-05-09 01:29:23.885  INFO 2064 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/6', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, 6, {}]}
+2021-05-09 01:29:23.893  INFO 2064 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : types
+2021-05-09 01:29:24.805  INFO 2064 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/types/8', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.TypeShowController.types', args=[1, 8, {}]}
+2021-05-09 01:29:24.811  INFO 2064 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : types
+2021-05-09 01:29:25.865  INFO 2064 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.ArchiveShowController.archive', args=[{}]}
+2021-05-09 01:29:25.879  INFO 2064 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : archives
+2021-05-09 01:29:31.427  INFO 2064 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 01:29:31.432  INFO 2064 --- [http-nio-8080-exec-6] com.star.aspect.LogAspect                : Result : music
+2021-05-09 01:29:37.199  INFO 2064 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/message', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.message', args=[]}
+2021-05-09 01:29:37.204  INFO 2064 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : message
+2021-05-09 01:29:37.455  INFO 2064 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MessageController.messages', args=[{}]}
+2021-05-09 01:29:37.474  INFO 2064 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : message::messageList
+2021-05-09 01:29:41.162  INFO 2064 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.FriendsShowController.friends', args=[{}]}
+2021-05-09 01:29:41.174  INFO 2064 --- [http-nio-8080-exec-3] com.star.aspect.LogAspect                : Result : friends
+2021-05-09 01:29:49.189  INFO 2064 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/picture', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.PictureShowController.friends', args=[{}]}
+2021-05-09 01:29:49.201  INFO 2064 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : picture
+2021-05-09 01:29:52.775  INFO 2064 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/about', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.AboutShowController.about', args=[]}
+2021-05-09 01:29:52.780  INFO 2064 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : about
+2021-05-09 01:30:23.670  INFO 2064 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:30:23.683  INFO 2064 --- [http-nio-8080-exec-7] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:30:50.086  INFO 2064 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-05-09 01:30:50.093  INFO 2064 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-05-09 01:31:05.015  INFO 2064 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blogMessage', args=[{}]}
+2021-05-09 01:31:05.022  INFO 2064 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : index :: blogMessage
+2021-05-09 01:31:34.067  INFO 2064 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/music', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.MusicShowController.about', args=[]}
+2021-05-09 01:31:34.069  INFO 2064 --- [http-nio-8080-exec-9] com.star.aspect.LogAspect                : Result : music
+2021-05-09 01:31:35.017  INFO 2064 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-09 01:31:35.030  INFO 2064 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : index
+2021-05-09 01:31:37.942  INFO 2064 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/14', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[14, {}]}
+2021-05-09 01:31:38.089  INFO 2064 --- [http-nio-8080-exec-10] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 01:31:38.320 ERROR 2064 --- [http-nio-8080-exec-5] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/asd，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "asd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 01:31:38.323  WARN 2064 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"]
+2021-05-09 01:31:39.578  INFO 2064 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/comments/14', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.CommentController.comments', args=[14, {}]}
+2021-05-09 01:31:39.583  INFO 2064 --- [http-nio-8080-exec-8] com.star.aspect.LogAspect                : Result : blog :: commentList
+2021-05-09 01:31:48.689  WARN 2064 --- [http-nio-8080-exec-4] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2021-05-09 01:31:51.943  INFO 2064 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/blog/14', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.blog', args=[14, {}]}
+2021-05-09 01:31:52.039  INFO 2064 --- [http-nio-8080-exec-2] com.star.aspect.LogAspect                : Result : blog
+2021-05-09 01:31:52.248 ERROR 2064 --- [http-nio-8080-exec-9] c.s.hander.ControllerExceptionHandler    : Requst URL : http://localhost:8080/blog/asd，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "asd"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2021-05-09 01:31:52.252  WARN 2064 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "asd"]
