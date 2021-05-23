@@ -1,0 +1,5 @@
+2021-05-08 19:19:53.420  INFO 15960 --- [restartedMain] com.star.MyblogApplication               : Starting MyblogApplication on DESKTOP-CBAEKMU with PID 15960 (started by GUO in E:\课件资料\毕业设计\资料整合\myblog)
+2021-05-08 19:19:53.432  INFO 15960 --- [restartedMain] com.star.MyblogApplication               : The following profiles are active: pro
+2021-05-08 19:19:58.435  INFO 15960 --- [restartedMain] com.star.MyblogApplication               : Started MyblogApplication in 6.55 seconds (JVM running for 10.633)
+2021-05-08 19:20:15.153  INFO 15960 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[{}, 1, {}]}
+2021-05-08 19:20:15.669  INFO 15960 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
