@@ -7,7 +7,16 @@
 6、使用git commit -m '新添加的文件内容描述
 7、使用git push origin master ，将本地仓库推送到远程仓库
 8、回到码云，刷新试试，就可以看到新建项目了 
+
+1.查看当前仓库代码状况：git status
+2.选择add的文件或者全部更新：git add *
+3.commit 到暂存区：git commit -m "注释"
+4.pull 当前最新代码：git pull
+5.push 到github：git push origin master
+
 https://blog.csdn.net/QingXu1234/article/details/105560896?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_baidulandingword-1&spm=1001.2101.3001.4242
+
+
 
 删除git上存储仓项目：
 1、1、复制仓库地址
